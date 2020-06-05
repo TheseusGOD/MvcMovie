@@ -26,6 +26,7 @@ namespace MvcMovie.Models
                         Title = "T-34",
                         ReleaseDate = DateTime.Parse("2019-02-20"),
                         Genre = "Action",
+                        Rating = "R",
                         Price = 7.99M
                     },
 
@@ -34,6 +35,7 @@ namespace MvcMovie.Models
                         Title = "Satellite",
                         ReleaseDate = DateTime.Parse("2020-08-14"),
                         Genre = "Drama Fantasy",
+                        Rating = "R",
                         Price = 8.99M
                     },
 
@@ -42,6 +44,7 @@ namespace MvcMovie.Models
                         Title = "The Gentlemen",
                         ReleaseDate = DateTime.Parse("2020-01-24"),
                         Genre = "Comedy",
+                        Rating = "R",
                         Price = 9.99M
                     },
 
@@ -50,6 +53,7 @@ namespace MvcMovie.Models
                         Title = "Ice 2",
                         ReleaseDate = DateTime.Parse("2020-02-14"),
                         Genre = "Romance",
+                        Rating = "R",
                         Price = 3.99M
                     }
                 );
